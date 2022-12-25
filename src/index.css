@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,39 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.typeahead-dropdown{
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.dropdown-list{
+  padding-left: 40%;
+  padding-right: 37%;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.highlight{
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.border-top-bottom{
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  margin: 2px;
+  list-style-type: none;
+}
+
+.user-input{
+  width: 325px;
+  padding-left: 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  margin-left: 40%;
+  background: url(./search-icon.png) no-repeat;
 }

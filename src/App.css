@@ -1,37 +1,25 @@
-.user-card{
-  border: 1px solid;
-  padding-left: 5px;
+
+.searchBox{
+  left: 0;
+  right: 0;
+  display: block;
+  text-align: center;
+}
+.searchBox input {
+  min-width: 300px;
+  height: 30px;
+  padding-left: 10px;
+  color: darkgray;
+  background-color: #dfdfdffc;
+  border: none;
 }
 
-.user-card:hover{
-  cursor: pointer;
+.searchBox img {
+  height: 10px;
+}
+
+.active{
   background-color: yellow;
-}
-
-.user-card:focus {
-  background-color: yellow;
-}
-.highlight{
-  color: #2196f3;
-  font-weight: bold;
-}
-
-.user-list{
-  width: 344px;
-  margin-left: 40%;
-  margin-top: 2px;
-  max-height: 300px;
-  overflow-y: scroll;
-}
-
-.search{
-  width: 319px;
-  padding-left: 20px;
-  font-size: 18px;
-  margin-top: 20px;
-  margin-left: 40%;
-  background: url(./search-icon.png) no-repeat;
-  
 }
 
 .user-id{
@@ -45,14 +33,7 @@
 .empty-card {
   margin-left: 40%;
 }
-
-.highlightbox{
-  background-color: yellow;
-}
-
-.border-top-bottom{
-  border-bottom: 1px solid lightgray;
-  border-top: 1px solid lightgray;
-  margin: 2px;
-  list-style-type: none;
+.user-card{
+  border: 1px solid;
+  padding-left: 5px;
 }
